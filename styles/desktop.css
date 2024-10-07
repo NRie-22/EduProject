@@ -1,0 +1,69 @@
+@media screen and (min-width: 768px) {
+  .main {
+    display: flex;
+    flex-direction: row-reverse;
+    /* justify-content: center; */
+    justify-content: flex-end;
+    width: 1100px;
+    /* margin: 40px auto; */
+  }
+
+  .main-contenet {
+    margin-left: 38px;
+  }
+
+  .About-my-self {
+    width: 630px;
+    /* height: 230px; */
+    left: 498px;
+    top: 142px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .About-my-self h1 {
+    font-size: 45px;
+    line-height: 55px;
+  }
+
+  .About-img-for-flex {
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+  }
+
+  .About-wakatime .img2 {
+    max-width: 650px;
+  }
+
+
+  .My-projects {
+    width: 650px;
+  }
+
+  .project-item {
+    flex-direction: row;
+  }
+
+  .My-projects-dots {
+    flex: 1 1 auto;
+    border-bottom: 2px dotted #e4e7eb;
+    margin-bottom: 0.1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .work-list {
+    width: 550px;
+  }
+
+  /* sidebar */
+  .sidebar {
+    width: 370px;
+  }
+
+  .sidebar img {
+    max-width: 370px;
+
+  }
+}

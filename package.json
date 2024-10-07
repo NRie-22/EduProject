@@ -1,0 +1,22 @@
+{
+  "name": "resume",
+  "version": "1.0.2",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://NRie.github.io/NRie",
+  "scripts": {
+    "start": "serve -s resume",
+    "deploy": "gh-pages -d resume",
+    "watch:sass": "sass --watch resume/styles/btndraw.scss:resume/styles/btndraw.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "serve": "^14.0.1"
+  },
+  "dependencies": {
+    "sass": "^1.79.4"
+  }
+}

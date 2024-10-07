@@ -1,0 +1,305 @@
+:root {
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --animation-duration: 250ms;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  background: #F5F7FA;
+}
+
+.main {
+  width: 96%;
+  margin: auto;
+  background: #FFFFFF;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.main-contenet {
+  margin-left: 8px;
+}
+
+.About-my-self {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3vw;
+  color: #595959;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.About-my-self h1 {
+  width: 96%;
+  height: 51px;
+  left: 498px;
+  top: 178px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 8vw;
+
+  color: #000000;
+}
+
+.About-wakatime {
+  display: block;
+}
+
+.About-wakatime .img2 {
+  max-width: 75vw;
+}
+
+.About-wakatime .img3 {
+  max-width: 77vw;
+}
+
+.About-img-for-flex {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+}
+
+.About-quote {
+  font-size: 18px;
+  text-indent: 20px;
+  display: block;
+  margin: auto 0;
+  /* ************* */
+  text-shadow: none;
+  text-align: justify;
+}
+
+.project-item {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.project-text {
+  margin: 0 auto;
+}
+
+
+.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+  margin-bottom: 8px;
+}
+
+.My-projects,
+.my-works,
+.my-education {
+  margin-bottom: 45px;
+  margin-top: 45px;
+}
+
+
+
+.project-list {
+  padding: 0;
+  margin-left: 15px;
+}
+
+.My-projects {
+  /* width: 650px; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.My-projects li::marker {
+  font-weight: bold;
+  color: #000000;
+}
+
+.work-position {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin-bottom: 11px;
+  margin-top: 12px;
+}
+
+.work-list {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  padding: 0;
+  margin-left: 15px;
+
+}
+
+.work-details {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  padding: 0;
+  margin-top: -15px;
+}
+
+.sub-work-list {
+  padding: 0;
+  margin-left: 15px;
+}
+
+.sub-work-list li::marker {
+  font-weight: bold;
+  content: '- ';
+  color: #000000;
+}
+
+.organizatiob {
+  color: #FB6D3A;
+}
+
+.period {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #A8A8A8;
+  margin-bottom: 8px;
+}
+
+.line {
+  color: #000;
+}
+
+
+
+/* sidebar */
+.sidebar {
+  /* padding: 40px 0; */
+  /* width: 370px; */
+  padding-bottom: 40px;
+  background-color: #1E2939;
+  color: #FFFFFF;
+}
+
+.download-pdf {
+  display: block;
+  margin: 12px 24px;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #FFFFFF;
+  transition: color var(--animation-duration) var(--timing-function);
+}
+
+.download-pdf:hover,
+.download-pdf:focus {
+  color: #FB6D3A;
+}
+
+.sidebar img {
+  display: block;
+  margin: 0 auto;
+  max-width: 332px;
+
+}
+
+.contact {
+  margin-top: 51px;
+  margin-left: 40px;
+}
+
+.contact-type {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-right: 10px;
+}
+
+.contact-btn-svg {
+  fill: #FB6D3A;
+}
+
+.contact-wrap {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.contact-wrap+.contact-wrap {
+  margin-top: 12px;
+}
+
+.contact-link {
+  margin: auto 0;
+  display: block;
+
+  text-decoration-skip-ink: none;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #FFFFFF;
+  /* opacity: 0.5; */
+  transition: color var(--animation-duration) var(--timing-function), opacity var(--animation-duration) var(--timing-function);
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: #FB6D3A;
+  /* opacity: 1; */
+}
+
+.cert-link {
+  opacity: 1;
+  font-size: 16px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+
+}
+
+.list-TechSkills li::marker,
+.list-SoftSkills li::marker {
+  color: #FB6D3A;
+  font-size: 1.5em;
+}
+
+.list-TechSkills,
+.list-SoftSkills {
+  padding: 0;
+  margin-left: 25px;
+  /* font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF; */
+}
+
+.TechSkills,
+.SoftSkills {
+  margin-top: 47px;
+  margin-left: 40px;
+  padding: 0;
+}
+
+.list-certifications {
+  list-style: none;
+  margin-left: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  row-gap: 8px;
+}
